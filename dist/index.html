@@ -23,17 +23,17 @@
 					<div class="flex items-center justify-between">
 						<div class="flex flex-row items-center md:pl-14 lg:pl-12">
 							<a href="#">
-								<img src="../images/favicon.jpg" alt="avocatto-profile" class="w-28 h-28 sm:w-9 sm:h-9  md:w-15 md:h-15 lg:w-16 lg:h-16 rounded-full m-3 cursor-pointer">
+								<img src="../images/favicon.jpg" alt="avocatto-profile" class="w-28 h-28 sm:w-9 sm:h-9  md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full m-3 cursor-pointer">
 							</a>
-							<span class="font-fredoka font-semibold text-2xl sm:text-1xl md:text-2xl lg:text-3xl text-neutral-600 ">avo-catto</span>
+							<span class="font-fredoka font-semibold text-2xl sm:text-1xl md:text-2xl lg:text-3xl text-neutral-100 ">avo-catto</span>
 						</div>
-						<div class=" text-base lg:text-2xl text-neutral-900 font-medium ">
+						<div class="lg:text-2xl">
 							<ul class=" hidden md:flex space-x-10 mr-16 xl:mr-28">
-								<li><a href="#" class=" hover:bg-neutral-600  hover:text-neutral-200 px-2 py-1 rounded-md" >Home</a></li>
-								<li><a href="#about" class=" hover:bg-neutral-600  hover:text-neutral-200 px-2 py-1 rounded-md" >About</a></li>
-								<li><a href="#portfolio" class=" hover:bg-neutral-600  hover:text-neutral-200 px-2 py-1 rounded-md" >Portfolio</a></li>
-								<li><a href="#contact" class=" hover:bg-neutral-600  hover:text-neutral-200 px-2 py-1 rounded-md" >Contacts</a></li>
-								<li><a href="../dist/resume.html" class="font-black hover:bg-neutral-600  hover:text-neutral-200 px-2 py-1 rounded-md" >Resume</a></li>
+								<li><a href="#" class="text-neutral-100 hover:bg-neutral-600  hover:text-neutral-800 px-2 py-1 rounded-md" >Home</a></li>
+								<li><a href="#about" class=" text-neutral-100 hover:bg-neutral-600  hover:text-neutral-800 px-2 py-1 rounded-md" >About</a></li>
+								<li><a href="#portfolio" class=" text-neutral-100 hover:bg-neutral-600  hover:text-neutral-800 px-2 py-1 rounded-md" >Portfolio</a></li>
+								<li><a href="#contact" class=" text-neutral-100 hover:bg-neutral-600  hover:text-neutral-800 px-2 py-1 rounded-md" >Contacts</a></li>
+								<li><a href="../dist/resume.html" class="text-neutral-100 font-black hover:bg-neutral-600  hover:text-neutral-800 px-2 py-1 rounded-md" >Resume</a></li>
 							</ul>
 						</div>
 					</div>
@@ -42,13 +42,29 @@
 
     <!--SECTIONS-->
 		<section id="#">
-			<div class="grid grid-cols-1 grid-rows-3 p-6 bg-[url(../images/beige.png)]">
-				<div>
-					<h1 class="text-6xl font-bold mb-4 text-neutral-500"></h1>Hello!</h1>
-          <h2 class="text-8xl font-black mb-6 text-neutral-700">I am<span class="italic font-serif"> BEA MOLAR</span></h2>
+			<div class="grid grid-cols-1 grid-rows-4 mt-24 bg-[url(../images/beige.png)] bg-cover w-fit h-fit m-10 rounded-lg shadow-2xl
+									lg:grid-rows-2 lg:grid-cols-2">
+								
+				<div class="p-8 md:p-10 h-fit">
+					<h1 class="font-bold mb-4 text-neutral-500 text-2xl md:text-6xl">Hello!</h1>
+          <h2 class="font-black text-neutral-700 text-3xl md:text-8xl">I am<span class="italic font-serif"> BEA MOLAR</span></h2>
 				</div>
-				<div>2</div>
-				<div>3</div>
+
+				<div class="h-fit lg:row-span-2 ">
+					<img src="../images/my pic.png" alt="profile-picture" class="w-fit h-fit p-7 lg:pb-0">
+				</div>
+
+				<div class="text-lg p-5 text-neutral-500 mb-6" id="text-3 ">
+					<span>
+						Welcome to my portfolio! I am a Computer Science student with a passion for creating intuitive web applications. 
+						My interests include Natural Language Processing, Machine Learning, and back-end development. 
+						Join me as I explore and innovate in the digital space.
+					</span><br>
+					<span class="text-3xl font-bold text-neutral-700 font-seri">
+						"Exploring the future of tech!"
+					</span>
+				</div>
+				<div class="hidden h-0"></div>
 			</div>
 		</section>
 		<section id="about"></section>
