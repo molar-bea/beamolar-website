@@ -19,7 +19,7 @@
 <body class="font-leagueSpartan bg-gradient-to-b from from-neutral-100 to-neutral-600">
     <!--NAVIGATION BAR-->
     <div>
-        <nav class="fixed top-0 w-full sm:p-1 md:p-0 bg-neutral-800 bg-opacity-50 rounded-b-full sm:rounded-none md:rounded-b-full">
+        <nav class="fixed top-0 w-full sm:p-1 md:p-0 bg-neutral-800 bg-opacity-50 sm:rounded-none md:rounded-b-full">
 					<div class="flex items-center justify-between">
 						<div class="flex flex-row items-center md:pl-14 lg:pl-12">
 							<a href="#">
@@ -42,32 +42,35 @@
 
     <!--SECTIONS-->
 		<section id="#">
-			<div class="grid grid-cols-1 grid-rows-4 mt-24 bg-[url(../images/beige.png)] bg-cover w-fit h-fit m-10 rounded-lg shadow-2xl
-									lg:grid-rows-2 lg:grid-cols-2">
+			<div class="grid grid-cols-1 grid-rows-3 mt-24  bg-[url(../images/beige.png)] bg-cover h-fit m-10 rounded-lg shadow-2xl
+						lg:grid-rows-2 lg:grid-cols-2 md:m-16 md:rounded-8xl">
 								
 				<div class="p-8 md:p-10 h-fit">
-					<h1 class="font-bold mb-4 text-neutral-500 text-2xl md:text-6xl">Hello!</h1>
-          <h2 class="font-black text-neutral-700 text-3xl md:text-8xl">I am<span class="italic font-serif"> BEA MOLAR</span></h2>
+					<h1 class="font-black mb-4 text-neutral-500 sm:text-3xl md:text-6xl lg:text-8xl">Hello!</h1>
+          			<h2 class="font-black text-neutral-700 sm:text-3xl md:text-6xl lg:text-8xl">I am<span class="italic font-serif"> BEA MOLAR</span></h2>
 				</div>
 
-				<div class="h-fit lg:row-span-2 ">
-					<img src="../images/my pic.png" alt="profile-picture" class="w-fit h-fit p-7 lg:pb-0">
+				<div class="lg:row-span-2">
+					<img src="../images/my pic.png" alt="profile-picture" class="p-5 md:p-10">
 				</div>
 
-				<div class="text-lg p-5 text-neutral-500 mb-6" id="text-3 ">
-					<span>
+				<div class="p-5 text-neutral-500 mb-6">
+					<p class="md:text-3xl lg:text-4xl">
 						Welcome to my portfolio! I am a Computer Science student with a passion for creating intuitive web applications. 
-						My interests include Natural Language Processing, Machine Learning, and back-end development. 
 						Join me as I explore and innovate in the digital space.
-					</span><br>
-					<span class="text-3xl font-bold text-neutral-700 font-seri">
+					</p><br>
+					<p class="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-neutral-700 font-seri">
 						"Exploring the future of tech!"
-					</span>
+					</p>
 				</div>
 				<div class="hidden h-0"></div>
 			</div>
 		</section>
-		<section id="about"></section>
+
+		<section id="about">
+			
+		</section>
+
 		<section id="portfolio"></section>
 		<section id="contact"></section>
 </body>
