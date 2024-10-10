@@ -14,9 +14,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
 
 </head>
-<body class="font-leagueSpartan bg-gradient-to-b from from-neutral-100 to-neutral-500">
+<body>
     <!--NAVIGATION BAR-->
     <div>
         <nav class="fixed top-0 w-full sm:p-1 md:p-0 bg-neutral-800 bg-opacity-50 sm:rounded-none md:rounded-b-full z-10">
@@ -42,62 +45,64 @@
 
     <!--SECTIONS-->
 		<section id="#">
-			<div class="grid grid-cols-1 grid-rows-3 mt-16 w-screen h-fit rounded-lg shadow-2xl bg-[url(../_images/beige.png)]  bg-cover md-m-10 md:mt-24 md:w-fit md:m-16 md:rounded-8xl lg:grid-rows-2 lg:grid-cols-2">
-								
-				<div class="font-black text-center p-8 h-fit md:p-10">
-					<h1 class="mb-4 text-neutral-500 sm:text-3xl md:text-6xl lg:text-8xl">Hello!</h1>
-          			<h2 class="text-neutral-700 sm:text-3xl md:text-6xl lg:text-8xl">I am<span class="italic font-serif"> BEA MOLAR</span></h2>
+			<div class="grid grid-cols-1 grid-rows-3 shadow-2xl bg-[url(../_images/beige.png)] bg-cover w-auto h-auto">		
+				<div class="h-fit">
+					<ul class="font-roboto mt-16 p-8 flex items-center justify-between">
+						<li><a href="#" class="text-neutral-700">Home</a></li>
+						<li><a href="#about"class="text-neutral-700">About</a></li>
+						<li><a href="#portfolio" class="text-neutral-700">Portfolio</a></li>
+						<li><a href="#contact" class="text-neutral-700" >Contacts</a></li>
+						<li><a href="../dist/resume.html" class="text-neutral-700">Resume</a></li>
+					</ul>
+					<h1 class="text-center text-2xl  text-neutral-500  ">Hello!</h1>
+          <h2 class="text-center text-4xl text-neutral-700">I am <span class="font-black">BEA MOLAR</span></h2>
 				</div>
 
-				<div class="lg:row-span-2">
-					<img src="../_images/my pic.png" alt="profile-picture" class="p-5 md:p-10">
+				<div class="justify-self-start">
+					<img src="../_images/my pic.png" alt="profile-picture" class="p-10">
 				</div>
 
-				<div class="p-5 text-neutral-500 mb-6">
-					<p class="md:text-3xl lg:text-4xl">
+				<div class="text-neutral-700">
+					<p class="text-xl p-5 text-center">
 						Welcome to my portfolio! I am a Computer Science student with a passion for creating intuitive web applications. 
 						Join me as I explore and innovate in the digital space.
 					</p><br>
-					<p class="text-xl font-bold  text-neutral-700 font-seri text-center sm:text-2xl md:text-4xl lg:text-5xl ">
+					<p class="font-black text-2xl text-center">
 						"Exploring the future of tech!"
 					</p>
 				</div>
-				<div class="hidden h-0"></div>
 			</div>
 		</section>
 
-		<section id="about">
-			<div class="text-neutral-700 flex flex-col items-center">
-				<p class="text-xl">Get to know more...</p>
+		<section id="about" class="">
+			<div class="text-center text-neutral-700 ">
+				<p class="pt-10 text-xl">Get to know more...</p>
         <h2 class="text-4xl font-bold">ABOUT ME</h2>
 			</div>
-			<div class="grid grid-cols-1 grid-rows-2 md:grid-cols-2" >
-				<div class="grid grid-cols-1 grid-rows-2">
-					<div class="flex flex-col items-center pt-10">
-						<img src="../_images/about-me-pic.jpg" alt="profile-picture-about-me" class="w-7/12 h-fit rounded-2xl drop-shadow-2xl">
-					</div>
-
-					<div class="text-neutral-600 text-xl px-6 md:px-10">
-						<p>
-							Hey there! I'm Bea Rina Molar, straight from the coastal vibes of San Juan, 
-							Hilongos, Leyte. Living by the beach was great, but my real passion was 
-							diving into the world of futuristic tech! Even as a kid, I was fascinated by 
-							all the amazing possibilities that technology could offer.
-						</p><br>
-						<p>           
-							Right now, I'm focusing on being practical and honing my skills in web development. 
-							Gotta start somewhere, right? But deep down, I've got this big dream of working 
-							on a major tech innovation someday—something that can really make an impact. 
-							Just taking it one step at a time!
-						</p>
-					</div>
-				</div>
+			<div class="grid grid-cols-1 grid-rows-2 gap-3 m-10" >
+				<div class="text-neutral-600 text-xl">
+	
+					<img src="../_images/about-me-pic.jpg" alt="profile-picture-about-me" class="w-1/2 h-1/2">
+					
+					<p>
+						Hey there! I'm Bea Rina Molar, straight from the coastal vibes of San Juan, 
+						Hilongos, Leyte. Living by the beach was great, but my real passion was 
+						diving into the world of futuristic tech! Even as a kid, I was fascinated by 
+						all the amazing possibilities that technology could offer.
+					</p><br>
+					<p>           
+						Right now, I'm focusing on being practical and honing my skills in web development. 
+						Gotta start somewhere, right? But deep down, I've got this big dream of working 
+						on a major tech innovation someday—something that can really make an impact. 
+						Just taking it one step at a time!
+					</p>
 				
-				<div class="grid grid-cols-1 grid-rows-2">
-					<div class="flex flex-col items-center p-10 ">
-						<img src="../_images/cat-icon.jpg" alt="interest-picture" class="w-9/12 h-fit rounded-2xl drop-shadow-2xl">
-					</div>
-					<div class="text-neutral-600 text-xl px-6">
+				</div>
+				<div class="text-neutral-600 text-xl">
+					
+						<img src="../_images/cat-icon.jpg" alt="interest-picture">
+					
+				
 						<p>My valuess and beliefs??....://</p>
 						<p>Why do it today when you can do it tomorrow? (It's all about pacing, right?) XD</p>
 						<p>
@@ -108,7 +113,7 @@
 								But hey, we still get things done—eventually. It's all about balancing the fun with the work 
 								(okay, maybe more fun sometimes😅).
 						</p>
-					</div>
+				
 				</div>
 			</div>
 		</section>

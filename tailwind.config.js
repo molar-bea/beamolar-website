@@ -10,6 +10,7 @@ module.exports = {
         leagueSpartan:['League Spartan', 'sans-serif'],
         merriweather:['Merriweather','serif'],
         fredoka: ['Fredoka', 'sans-serif'],
+        roboto:['Roboto', 'sans-serif'],
       }
     },
   },
