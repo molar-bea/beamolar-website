@@ -19,43 +19,34 @@
 
 
 </head>
-<body class="bg-gradient-to-b from-neutral-100 to-neutral-300">
+<body>
     <!--NAVIGATION BAR-->
     <div>
-        <nav class="fixed top-0 w-full sm:p-1 md:p-0 bg-neutral-800 bg-opacity-50 sm:rounded-none md:rounded-b-full z-10">
-					<div class="flex items-center justify-between">
-						<div class="flex flex-row items-center md:pl-14 lg:pl-12">
+        <nav class="fixed top-0 w-full h-20 bg-neutral-800 bg-opacity-50 z-10 flex flex-col">
+					<div class="pt-4 gap-3 flex items-center justify-center">
 							<a href="#">
-								<img src="../_images/favicon.jpg" alt="avocatto-profile" class="w-28 h-28 sm:w-9 sm:h-9  md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full m-3 cursor-pointer">
+								<img src="../_images/favicon.jpg" alt="avocatto-profile" class="w-8 h-8 rounded-full cursor-pointer">
 							</a>
-							<span class="font-fredoka font-semibold text-2xl sm:text-1xl md:text-2xl lg:text-3xl text-neutral-100 ">avo-catto</span>
-						</div>
-						<div class="lg:text-2xl">
-							<ul class=" hidden md:flex space-x-10 mr-16 xl:mr-28">
-								<li><a href="#" class="text-neutral-100 hover:bg-neutral-600  hover:text-neutral-800 px-2 py-1 rounded-md" >Home</a></li>
-								<li><a href="#about" class=" text-neutral-100 hover:bg-neutral-600  hover:text-neutral-800 px-2 py-1 rounded-md" >About</a></li>
-								<li><a href="#portfolio" class=" text-neutral-100 hover:bg-neutral-600  hover:text-neutral-800 px-2 py-1 rounded-md" >Portfolio</a></li>
-								<li><a href="#contact" class=" text-neutral-100 hover:bg-neutral-600  hover:text-neutral-800 px-2 py-1 rounded-md" >Contacts</a></li>
-								<li><a href="../dist/resume.html" class="text-neutral-100 font-black hover:bg-neutral-600  hover:text-neutral-800 px-2 py-1 rounded-md" >Resume</a></li>
-							</ul>
-						</div>
+							<span class="font-fredoka font-semibold text-neutral-800 ">avo-catto</span>
+					</div>
+					<div>
+						<ul class=" px-8 flex flex-row justify-between">
+							<li><a href="#" class="text-neutral-100 focus:text-neutral-800">Home</a></li>
+							<li><a href="#about"class="text-neutral-100 focus:text-neutral-800">About</a></li>
+							<li><a href="#portfolio" class="text-neutral-100 focus:text-neutral-800">Portfolio</a></li>
+							<li><a href="#contact" class="text-neutral-100 focus:text-neutral-800" >Contacts</a></li>
+							<li><a href="../dist/resume.html" class="text-neutral-100 focus:text-neutral-800">Resume</a></li>
+						</ul>
 					</div>
         </nav>
     </div>
 
     <!--SECTIONS-->
 		<section id="#">
-			<div class="grid grid-cols-1 grid-rows-3 shadow-2xl bg-[url(../_images/beige.png)] bg-cover w-full h-auto">		
-				<div class="">
-					<ul class="mt-16 p-8 flex items-center justify-between">
-						<li><a href="#" class="text-neutral-700">Home</a></li>
-						<li><a href="#about"class="text-neutral-700">About</a></li>
-						<li><a href="#portfolio" class="text-neutral-700">Portfolio</a></li>
-						<li><a href="#contact" class="text-neutral-700" >Contacts</a></li>
-						<li><a href="../dist/resume.html" class="text-neutral-700">Resume</a></li>
-					</ul>
-					<h1 class="font-leagueSpartan text-center text-2xl  text-neutral-500  ">Hello!</h1>
-          <h2 class="font-leagueSpartan text-center text-5xl text-neutral-700">I am <span class="font-black">BEA MOLAR</span></h2>
+			<div class="grid grid-cols-1 grid-rows-3 bg-[url(../_images/beige.png)] bg-cover w-full h-auto">		
+				<div>
+					<h1 class="mt-24 font-leagueSpartan text-center text-2xl  text-neutral-500  ">Hello!</h1>
+          <h2 class="font-leagueSpartan text-center text-5xl text-neutral-700">I am <span class="font-serif font-black">BEA MOLAR</span></h2>
 				</div>
 
 				<div class="flex justify-center">
@@ -74,7 +65,7 @@
 			</div>
 		</section>
 
-	<section id="about">
+	<section id="about" class="bg-neutral-200">
 		<div class="flex flex-col items-center text-lg text-neutral-700 pt-20">
 			<h2 class="">Get to know more...</h2>
 			<h1 class="text-4xl font-black">About Me</h1>
@@ -112,11 +103,11 @@
 		</div>
 	</section>
 
-		<section id="portfolio">
-			<div class="text-neutral-700 flex flex-col items-center">
+		<section id="portfolio" class="bg-neutral-300">
+			<div class="text-neutral-700 pt-20 flex flex-col items-center">
         <h2 class="text-4xl font-black">MY PORTFOLIO</h2>
 			</div>
-			<div class="grid grid-cols-1 grid-rows-3  md:grid-rows-1 md:grid-cols-3 gap-3 my-10 place-items-center">
+			<div class="grid grid-cols-1 grid-rows-3  md:grid-rows-1 md:grid-cols-3 gap-3 mt-10 place-items-center">
 				<div class="container w-full border-solid bg-slate-200 rounded-lg">
 					<img src="../_images/favicon.jpg" alt="project-1-picture">
 					
@@ -146,11 +137,11 @@
 			</div>
 		</section>
 
-		<section id="contact">
-			<div class="text-neutral-700 flex justify-center">
-        <h2 class="text-lg font-medium">Bea Molar</h2>
+		<section id="contact" class="bg-neutral-600">
+			<div class="text-neutral-100 flex justify-center">
+        <h2 class="text-lg pt-5 font-medium">Bea Molar</h2>
 			</div>
-			<div class="flex flex-row justify-between p-10">
+			<div class="flex flex-row justify-center py-5 px-20 gap-3">
 				<a href="https://www.facebook.com/beamolar05131/" target="_blank"><img src="../_images/fb-logo.png" alt="facebook-logo" class="w-12 h-12"></a>
 				<a href="https://www.instagram.com/biyyasaurus/"><img src="../_images/instagram-logo.png" alt="instagram-logo" class="w-12 h-12"></a>
 				<a href="https://x.com/avocado_shakie"><img src="../_images/x-logo.png" alt="x-logo" class="w-12 h-12"></a>
