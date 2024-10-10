@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../src/output.css" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
 	
 	<title>avo-catto profile</title>
 	<link rel="icon" type="images/jpg" href="../_images/favicon.jpg">
@@ -19,7 +19,7 @@
 
 
 </head>
-<body>
+<body class="bg-gradient-to-b from-neutral-200 to-neutral-500">
     <!--NAVIGATION BAR-->
     <div>
         <nav class="fixed top-0 w-full sm:p-1 md:p-0 bg-neutral-800 bg-opacity-50 sm:rounded-none md:rounded-b-full z-10">
@@ -45,21 +45,21 @@
 
     <!--SECTIONS-->
 		<section id="#">
-			<div class="grid grid-cols-1 grid-rows-3 shadow-2xl bg-[url(../_images/beige.png)] bg-cover w-auto h-auto">		
-				<div class="h-fit">
-					<ul class="font-roboto mt-16 p-8 flex items-center justify-between">
+			<div class="grid grid-cols-1 grid-rows-3 shadow-2xl bg-[url(../_images/beige.png)] bg-cover w-full h-auto">		
+				<div class="">
+					<ul class="mt-16 p-8 flex items-center justify-between">
 						<li><a href="#" class="text-neutral-700">Home</a></li>
 						<li><a href="#about"class="text-neutral-700">About</a></li>
 						<li><a href="#portfolio" class="text-neutral-700">Portfolio</a></li>
 						<li><a href="#contact" class="text-neutral-700" >Contacts</a></li>
 						<li><a href="../dist/resume.html" class="text-neutral-700">Resume</a></li>
 					</ul>
-					<h1 class="text-center text-2xl  text-neutral-500  ">Hello!</h1>
-          <h2 class="text-center text-4xl text-neutral-700">I am <span class="font-black">BEA MOLAR</span></h2>
+					<h1 class="font-leagueSpartan text-center text-2xl  text-neutral-500  ">Hello!</h1>
+          <h2 class="font-leagueSpartan text-center text-5xl text-neutral-700">I am <span class="font-black">BEA MOLAR</span></h2>
 				</div>
 
-				<div class="justify-self-start">
-					<img src="../_images/my pic.png" alt="profile-picture" class="p-10">
+				<div class="flex justify-center">
+					<img src="../_images/my pic.png" alt="profile-picture" class=" w-2/3 h-auto">
 				</div>
 
 				<div class="text-neutral-700">
@@ -74,56 +74,56 @@
 			</div>
 		</section>
 
-		<section id="about" class="">
-			<div class="text-center text-neutral-700 ">
-				<p class="pt-10 text-xl">Get to know more...</p>
-        <h2 class="text-4xl font-bold">ABOUT ME</h2>
+	<section id="about" class="flex flex-col items-center ">
+		<div class="flex flex-col items-center text-lg text-neutral-700 pt-20">
+			<h2 class="">Get to know more...</h2>
+			<h1 class="text-4xl font-black">About Me</h1>
+		</div>
+		<div class="container">
+			<div class="h-auto w-auto bg-white rounded-md hover:shadow-md transition-all duration-500 flex flex-col items-center my-10">
+				<img src="../_images/about-me-pic.jpg" alt="about-me-picture" class="w-fill h-1/2 rounded-t-md">
+				<p class=" p-5 text-neutral-700">
+					Hey there! I'm Bea Rina Molar, straight from the coastal vibes of San Juan, 
+					Hilongos, Leyte. Living by the beach was great, but my real passion was 
+					diving into the world of futuristic tech! Even as a kid, I was fascinated by 
+					all the amazing possibilities that technology could offer.
+				</p><br>
+				<p class="p-5 text-neutral-700">           
+					Right now, I'm focusing on being practical and honing my skills in web development. 
+					Gotta start somewhere, right? But deep down, I've got this big dream of working 
+					on a major tech innovation someday—something that can really make an impact. 
+					Just taking it one step at a time!
+				</p>
 			</div>
-			<div class="grid grid-cols-1 grid-rows-2 gap-3 m-10" >
-				<div class="text-neutral-600 text-xl">
-	
-					<img src="../_images/about-me-pic.jpg" alt="profile-picture-about-me" class="w-1/2 h-1/2">
-					
-					<p>
-						Hey there! I'm Bea Rina Molar, straight from the coastal vibes of San Juan, 
-						Hilongos, Leyte. Living by the beach was great, but my real passion was 
-						diving into the world of futuristic tech! Even as a kid, I was fascinated by 
-						all the amazing possibilities that technology could offer.
-					</p><br>
-					<p>           
-						Right now, I'm focusing on being practical and honing my skills in web development. 
-						Gotta start somewhere, right? But deep down, I've got this big dream of working 
-						on a major tech innovation someday—something that can really make an impact. 
-						Just taking it one step at a time!
-					</p>
-				
-				</div>
-				<div class="text-neutral-600 text-xl">
-					
-						<img src="../_images/cat-icon.jpg" alt="interest-picture">
-					
-				
-						<p>My valuess and beliefs??....://</p>
-						<p>Why do it today when you can do it tomorrow? (It's all about pacing, right?) XD</p>
-						<p>
-								I love and liked playing MOBA and other PvP games. 
-								My game sense? Well, let's just say I'm more into the fun part than the winning part ;))
-	
-								Procrastination? Yeah, that's pretty much my constant companion. 
-								But hey, we still get things done—eventually. It's all about balancing the fun with the work 
-								(okay, maybe more fun sometimes😅).
-						</p>
-				
-				</div>
+			<div class="h-auto w-auto bg-white rounded-md hover:shadow-md transition-all duration-500 flex flex-col items-center my-10">
+				<img src="../_images/cat-icon.jpg" alt="about-me-picture" class="w-fill h-1/2 rounded-t-md">
+				<p class="p-5 text-neutral-700">My valuess and beliefs??....://</p>
+				<p class="p-5 text-neutral-700">Why do it today when you can do it tomorrow? (It's all about pacing, right?) XD</p>
+				<p class="p-5 text-neutral-700">
+						I love and liked playing MOBA and other PvP games. 
+						My game sense? Well, let's just say I'm more into the fun part than the winning part ;))
+
+						Procrastination? Yeah, that's pretty much my constant companion. 
+						But hey, we still get things done—eventually. It's all about balancing the fun with the work 
+						(okay, maybe more fun sometimes😅).
+				</p>
 			</div>
-		</section>
+		</div>
+	</section>
 
 		<section id="portfolio">
 			<div class="text-neutral-700 flex flex-col items-center">
-        <h2 class="text-4xl font-bold">MY PORTFOLIO</h2>
+        <h2 class="text-4xl font-black">MY PORTFOLIO</h2>
 			</div>
 			<div class="grid grid-cols-1 grid-rows-3">
-				<div class="grid grid-cols-1 grid-rows-2">1</div>
+				<div class="container">
+					<img src="../_images/favicon.jpg" alt="project-1-picture">
+					STUDIUSSSS
+					<P>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, ipsam repudiandae eveniet exercitationem ab tenetur fugiat pariatur rerum libero explicabo doloribus eos obcaecati qui numquam quae quo et odio animi.
+					</P>
+
+				</div>
 				<div class="grid grid-cols-1 grid-rows-2">2</div>
 				<div class="grid grid-cols-1 grid-rows-2">3</div>
 			</div>
