@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens:{
-        "sm":"250px"
+        
       },
       fontFamily:{
         leagueSpartan:['League Spartan', 'sans-serif'],
