@@ -22,20 +22,20 @@
 <body class="bg-neutral-300">
     <!--NAVIGATION BAR-->
     <div>
-        <nav class="fixed top-0 w-full h-20 bg-neutral-800 bg-opacity-50 z-10 flex flex-col">
-					<div class="pt-4 gap-3 flex items-center justify-center">
+        <nav class="fixed top-0 w-full h-20 bg-neutral-800 bg-opacity-50 z-10 flex flex-col md:rounded-b-full md:flex-row md:items-center md:justify-evenly">
+					<div class="pt-4 gap-3 flex items-center justify-center md:justify-start">
 							<a href="#">
-								<img src="../_images/favicon.jpg" alt="avocatto-profile" class="w-8 h-8 rounded-full cursor-pointer">
+								<img src="../_images/favicon.jpg" alt="avocatto-profile" class="w-8 h-8 md:w-10 md:h-10 rounded-full cursor-pointer">
 							</a>
-							<span class="font-fredoka font-semibold text-neutral-800 ">avo-catto</span>
+							<span class="font-fredoka font-semibold text-neutral-800 md:text-3xl">avo-catto</span>
 					</div>
 					<div>
-						<ul class=" px-8 flex flex-row justify-between md:justify-evenly md:rounded-b-full">
-							<li><a href="#" class="text-neutral-100 focus:text-neutral-800">Home</a></li>
-							<li><a href="#about"class="text-neutral-100 focus:text-neutral-800">About</a></li>
-							<li><a href="#portfolio" class="text-neutral-100 focus:text-neutral-800">Portfolio</a></li>
-							<li><a href="#contact" class="text-neutral-100 focus:text-neutral-800" >Contacts</a></li>
-							<li><a href="../dist/resume.html" class="text-neutral-100 focus:text-neutral-800">Resume</a></li>
+						<ul class=" px-8 flex flex-row justify-between md:justify-normal md:gap-10 md:text-xl">
+							<li><a href="#" class="text-neutral-100 focus:text-neutral-800 md:hover:bg-neutral-700 p-2 rounded-md">Home</a></li>
+							<li><a href="#about"class="text-neutral-100 focus:text-neutral-800 md:hover:bg-neutral-700 p-2 rounded-md">About</a></li>
+							<li><a href="#portfolio" class="text-neutral-100 focus:text-neutral-800 md:hover:bg-neutral-700 p-2 rounded-md">Portfolio</a></li>
+							<li><a href="#contact" class="text-neutral-100 focus:text-neutral-800 md:hover:bg-neutral-700 p-2 rounded-md" >Contacts</a></li>
+							<li><a href="../dist/resume.html" class="text-neutral-100 focus:text-neutral-800 md:hover:bg-neutral-700 p-2 rounded-md">Resume</a></li>
 						</ul>
 					</div>
         </nav>
@@ -43,21 +43,21 @@
 
     <!--SECTIONS-->
 		<section id="#">
-			<div class="grid grid-cols-1 grid-rows-2 md:grid-cols-2 bg-[url(../_images/beige.png)] bg-cover w-full h-auto">		
+			<div class="grid grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2 bg-[url(../_images/beige.png)] bg-cover w-full h-auto md:pb-10">		
 				<div class="flex flex-col justify-center items-center pt-20">
-					<h1 class="font-leagueSpartan text-center text-2xl  text-neutral-500  ">Hello!</h1>
-          			<h2 class="font-leagueSpartan text-center text-5xl text-neutral-700">I am <span class="font-serif font-black">BEA MOLAR</span></h2>
+					<h1 class="font-leagueSpartan text-center text-2xl  text-neutral-500 md:text-4xl">Hello!</h1>
+          			<h2 class="font-leagueSpartan text-center text-5xl text-neutral-700 md:text-6xl">I am <span class="font-serif font-black">BEA MOLAR</span></h2>
 					
-					<p class="text-neutral-700 text-xl p-5 text-center">
+					<p class="text-neutral-700 text-xl p-5 text-center md:text-1xl">
 						Welcome to my portfolio! I am a Computer Science student with a passion for creating intuitive web applications. 
 						Join me as I explore and innovate in the digital space.
 					</p>
-					<p class="font-black text-neutral-700 text-2xl text-center">
+					<p class="font-black text-neutral-700 text-2xl text-center md:text-3xl">
 						"Exploring the future of tech!"
 					</p>
 				</div>
 
-				<div class="md:justify-end md:col-span-1 md:row-span-2 flex justify-center items-center">
+				<div class=" md:col-span-1 md:row-span-2 flex justify-center items-center">
 					<img src="../_images/my pic.png" alt="profile-picture" class=" w-2/3 h-fit">
 				</div>
 
@@ -72,33 +72,35 @@
 			<h1 class="text-4xl font-black">About Me</h1>
 		</div>
 
-		<div class="grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 gap-3 my-10 place-items-center">
-			<div class="container h-auto w-10/12 mx-auto sm:px-10 bg-white rounded-md hover:shadow-md transition-all duration-500 flex flex-col items-center">
-				<img src="../_images/about-me-pic.jpg" alt="about-me-picture" class="w-auto h-1/2 rounded-t-md">
+		<div class="grid grid-cols-1 grid-rows-2 md:grid-cols-1 md:grid-rows-2 gap-3 my-10 place-items-center">
+			<div class="container h-auto w-10/12 mx-auto sm:px-10 bg-white rounded-md hover:shadow-lg hover:bg-neutral-300 transition-all duration-500 flex flex-col items-center md:flex-row">
+				<img src="../_images/about-me-pic.jpg" alt="about-me-picture" class="w-fill h-1/2 rounded-t-md md:w-1/2">
 				<p class=" p-5 text-neutral-700">
 					Hey there! I'm Bea Rina Molar, straight from the coastal vibes of San Juan, 
 					Hilongos, Leyte. Living by the beach was great, but my real passion was 
 					diving into the world of futuristic tech! Even as a kid, I was fascinated by 
 					all the amazing possibilities that technology could offer.
-				</p>
-				<p class="p-5 text-neutral-700">           
+					<br><br>
 					Right now, I'm focusing on being practical and honing my skills in web development. 
 					Gotta start somewhere, right? But deep down, I've got this big dream of working 
 					on a major tech innovation someday—something that can really make an impact. 
 					Just taking it one step at a time!
 				</p>
+				
 			</div>
-			<div class="container h-auto w-10/12 bg-white rounded-md hover:shadow-md transition-all duration-500 flex flex-col items-center">
-				<img src="../_images/cat-icon.jpg" alt="about-me-picture" class="w-fill h-1/2 rounded-t-md">
-				<p class="p-5 text-neutral-700">My valuess and beliefs??....://</p>
-				<p class="p-5 text-neutral-700">Why do it today when you can do it tomorrow? (It's all about pacing, right?) XD</p>
+			<div class="container h-auto w-10/12 mb-20 bg-white rounded-md hover:shadow-lg hover:bg-neutral-300 transition-all duration-500 flex flex-col items-center md:flex-row">
+				<img src="../_images/cat-icon.jpg" alt="about-me-picture" class="w-fill h-1/2 rounded-t-md md:w-1/2">
 				<p class="p-5 text-neutral-700">
-						I love and liked playing MOBA and other PvP games. 
-						My game sense? Well, let's just say I'm more into the fun part than the winning part ;))
-
-						Procrastination? Yeah, that's pretty much my constant companion. 
-						But hey, we still get things done—eventually. It's all about balancing the fun with the work 
-						(okay, maybe more fun sometimes😅).
+					My valuess and beliefs??....:/
+					<br><br>
+					Why do it today when you can do it tomorrow? (It's all about pacing, right?) XD
+					<br><br>
+					I love and liked playing MOBA and other PvP games. 
+					My game sense? Well, let's just say I'm more into the fun part than the winning part ;))
+					<br><br>
+					Procrastination? Yeah, that's pretty much my constant companion. 
+					But hey, we still get things done—eventually. It's all about balancing the fun with the work 
+					(okay, maybe more fun sometimes😅).
 				</p>
 			</div>
 		</div>
