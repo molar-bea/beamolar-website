@@ -22,7 +22,7 @@
 <body class="bg-neutral-300">
     <!--NAVIGATION BAR-->
     <div>
-        <nav class="fixed top-0 w-full h-20 bg-neutral-800 bg-opacity-50 z-10 flex flex-col md:rounded-b-full md:flex-row md:items-center md:justify-evenly">
+        <nav class="fixed top-0 w-screen h-20 bg-neutral-800 bg-opacity-50 z-10 flex flex-col md:rounded-b-full md:flex-row md:items-center md:justify-evenly">
 					<div class="pt-4 gap-3 flex items-center justify-center md:justify-start">
 							<a href="#">
 								<img src="../_images/favicon.jpg" alt="avocatto-profile" class="w-8 h-8 md:w-10 md:h-10 rounded-full cursor-pointer">
@@ -30,7 +30,7 @@
 							<span class="font-fredoka font-semibold text-neutral-800 md:text-3xl">avo-catto</span>
 					</div>
 					<div>
-						<ul class=" px-8 flex flex-row justify-between md:justify-normal md:gap-10 md:text-xl">
+						<ul class="text-sm px-2 flex flex-row justify-between md:justify-normal md:gap-10 md:text-xl">
 							<li><a href="#" class="text-neutral-100 focus:text-neutral-800 md:hover:bg-neutral-700 p-2 rounded-md">Home</a></li>
 							<li><a href="#about"class="text-neutral-100 focus:text-neutral-800 md:hover:bg-neutral-700 p-2 rounded-md">About</a></li>
 							<li><a href="#portfolio" class="text-neutral-100 focus:text-neutral-800 md:hover:bg-neutral-700 p-2 rounded-md">Portfolio</a></li>
@@ -43,12 +43,12 @@
 
     <!--SECTIONS-->
 		<section id="#">
-			<div class="grid grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2 bg-[url(../_images/beige.png)] bg-cover w-full h-auto md:pb-10">		
+			<div class="grid grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2 bg-[url(../_images/beige.png)] bg-cover w-full h-screen md:pb-10">		
 				<div class="flex flex-col justify-center items-center pt-20">
 					<h1 class="font-leagueSpartan text-center text-2xl  text-neutral-500 md:text-4xl">Hello!</h1>
-          			<h2 class="font-leagueSpartan text-center text-5xl text-neutral-700 md:text-6xl">I am <span class="font-serif font-black">BEA MOLAR</span></h2>
+          			<h2 class="font-leagueSpartan text-center text-4xl text-neutral-700 md:text-6xl">I am <span class="font-serif font-black">BEA MOLAR</span></h2>
 					
-					<p class="text-neutral-700 text-xl p-5 text-center md:text-1xl">
+					<p class="text-neutral-700 text-lg p-5 text-center md:text-1xl">
 						Welcome to my portfolio! I am a Computer Science student with a passion for creating intuitive web applications. 
 						Join me as I explore and innovate in the digital space.
 					</p>
@@ -57,7 +57,7 @@
 					</p>
 				</div>
 
-				<div class=" md:col-span-1 md:row-span-2 flex justify-center items-center">
+				<div class="md:col-span-1 md:row-span-2 flex justify-center items-center">
 					<img src="../_images/my pic.png" alt="profile-picture" class=" w-2/3 h-fit">
 				</div>
 
@@ -71,67 +71,50 @@
 			<h2 class="">Get to know more...</h2>
 			<h1 class="text-4xl font-black">About Me</h1>
 		</div>
-
-		<div class="grid grid-cols-1 grid-rows-2 md:grid-cols-1 md:grid-rows-2 gap-3 my-10 place-items-center">
-			<div class="container h-auto w-10/12 mx-auto sm:px-10 bg-white rounded-md hover:shadow-lg hover:bg-neutral-300 transition-all duration-500 flex flex-col items-center md:flex-row">
-				<img src="../_images/about-me-pic.jpg" alt="about-me-picture" class="w-fill h-1/2 rounded-t-md md:w-1/2">
-				<p class=" p-5 text-neutral-700">
-					Hey there! I'm Bea Rina Molar, straight from the coastal vibes of San Juan, 
-					Hilongos, Leyte. Living by the beach was great, but my real passion was 
-					diving into the world of futuristic tech! Even as a kid, I was fascinated by 
-					all the amazing possibilities that technology could offer.
-					<br><br>
-					Right now, I'm focusing on being practical and honing my skills in web development. 
-					Gotta start somewhere, right? But deep down, I've got this big dream of working 
-					on a major tech innovation someday—something that can really make an impact. 
-					Just taking it one step at a time!
-				</p>
-				
-			</div>
-			<div class="container h-auto w-10/12 mb-20 bg-white rounded-md hover:shadow-lg hover:bg-neutral-300 transition-all duration-500 flex flex-col items-center md:flex-row">
-				<img src="../_images/cat-icon.jpg" alt="about-me-picture" class="w-fill h-1/2 rounded-t-md md:w-1/2">
-				<p class="p-5 text-neutral-700">
-					My valuess and beliefs??....:/
-					<br><br>
-					Why do it today when you can do it tomorrow? (It's all about pacing, right?) XD
-					<br><br>
-					I love and liked playing MOBA and other PvP games. 
-					My game sense? Well, let's just say I'm more into the fun part than the winning part ;))
-					<br><br>
-					Procrastination? Yeah, that's pretty much my constant companion. 
-					But hey, we still get things done—eventually. It's all about balancing the fun with the work 
-					(okay, maybe more fun sometimes😅).
-				</p>
-			</div>
+		<div>
+			<img src="../_images/about-me-pic.jpg" alt="about-me-picture" class="size-9/12 m-10 rounded-t-md md:w-1/2">
+			<p class=" p-5 text-neutral-700">
+				Hey there! I'm Bea Rina Molar, straight from the coastal vibes of San Juan, 
+				Hilongos, Leyte. Living by the beach was great, but my real passion was 
+				diving into the world of futuristic tech! Even as a kid, I was fascinated by 
+				all the amazing possibilities that technology could offer.
+				<br><br>
+				Right now, I'm focusing on being practical and honing my skills in web development. 
+				Gotta start somewhere, right? But deep down, I've got this big dream of working 
+				on a major tech innovation someday—something that can really make an impact. 
+				Just taking it one step at a time!
+			</p>
 		</div>
+
+		
 	</section>
 
-		<section id="portfolio" class="bg-neutral-300">
+		<section id="portfolio" class="bg-neutral-400">
 			<div class="text-neutral-700 pt-20 flex flex-col items-center">
-        <h2 class="text-4xl font-black">MY PORTFOLIO</h2>
+        		<h2 class="text-4xl font-black">MY PORTFOLIO</h2>
 			</div>
-			<div class="grid grid-cols-1 grid-rows-3  md:grid-rows-1 md:grid-cols-3 gap-3 mt-10 place-items-center">
-				<div class="container w-full border-solid bg-slate-200 rounded-lg">
-					<img src="../_images/favicon.jpg" alt="project-1-picture">
+			<div class="m-10 grid grid-cols-1 grid-rows-3  md:grid-rows-1 md:grid-cols-3 gap-3 mt-10 place-items-center">
+				<div class="container w-full border-solid bg-neutral-200">
 					
+					<!-- <img src="../_images/favicon.jpg" alt="project-1-picture">-->
 					<p class="p-5">
-						STUDIUSSSS
+						<span class="text-lg font-semibold">STUDIUUS</span><br>
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, ipsam repudiandae eveniet exercitationem ab tenetur fugiat pariatur rerum libero explicabo doloribus eos obcaecati qui numquam quae quo et odio animi.
 					</p>
 				</div>
-				<div class="container w-full border-solid bg-slate-200 rounded-lg">
-					<img src="../_images/favicon.jpg" alt="project-1-picture">
-					
+
+				<div class="container w-full border-solid bg-neutral-200">
+					<!-- <img src="../_images/favicon.jpg" alt="project-1-picture">-->
 					<p class="p-5">
-						RESTAURANT KIOSK
+						<span class="text-lg font-semibold">RESTAURANT KIOSK</span><br>
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, ipsam repudiandae eveniet exercitationem ab tenetur fugiat pariatur rerum libero explicabo doloribus eos obcaecati qui numquam quae quo et odio animi.
 					</p>
 				</div>
-				<div class="container w-full border-solid bg-slate-200 rounded-lg">
-					<img src="../_images/favicon.jpg" alt="project-1-picture">
-					
+
+				<div class="container w-full border-solid bg-neutral-200 mb-5">
+					<!-- <img src="../_images/favicon.jpg" alt="project-1-picture">-->
 					<p class="p-5">
-						WEBSYS GROUP PROJECT
+						<span class="text-lg font-semibold">CS ABS</span><br>
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, 
 						ipsam repudiandae eveniet exercitationem ab tenetur fugiat pariatur rerum libero 
 						explicabo doloribus eos obcaecati qui numquam quae quo et odio animi.
@@ -142,7 +125,8 @@
 
 		<section id="contact" class="bg-neutral-600">
 			<div class="text-neutral-100 flex justify-center">
-        <h2 class="text-lg pt-5 font-medium">Bea Molar</h2>
+        		<h2 class="text-lg pt-5 font-medium">Bea Molar © 2024 </h2>
+				
 			</div>
 			<div class="flex flex-row justify-center py-5 px-20 gap-3">
 				<a href="https://www.facebook.com/beamolar05131/" target="_blank"><img src="../_images/fb-logo.png" alt="facebook-logo" class="w-12 h-12"></a>
